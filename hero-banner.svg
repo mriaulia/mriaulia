@@ -1,0 +1,138 @@
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="480" viewBox="0 0 900 480" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#05070d"/>
+      <stop offset="60%" stop-color="#070c1a"/>
+      <stop offset="100%" stop-color="#0a1226"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d1428"/>
+      <stop offset="100%" stop-color="#0a0f1e"/>
+    </linearGradient>
+    <linearGradient id="btn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2f6fed"/>
+      <stop offset="100%" stop-color="#5b9dff"/>
+    </linearGradient>
+    <linearGradient id="ground" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12294f"/>
+      <stop offset="100%" stop-color="#0a1730"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="avatarClip">
+      <rect x="0" y="0" width="150" height="196" rx="14"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="480" fill="url(#bg)"/>
+
+  <!-- moon -->
+  <circle cx="820" cy="46" r="20" fill="#16223e"/>
+  <circle cx="826" cy="40" r="20" fill="#05070d"/>
+
+  <!-- stars -->
+  <g fill="#7cc6ff">
+    <circle cx="34" cy="70" r="1.6" opacity="0.8"/>
+    <circle cx="70" cy="140" r="1.1" opacity="0.5"/>
+    <circle cx="120" cy="40" r="1.4" opacity="0.7"/>
+    <circle cx="600" cy="30" r="1.3" opacity="0.6"/>
+    <circle cx="740" cy="90" r="1.1" opacity="0.5"/>
+    <circle cx="50" cy="330" r="1.2" opacity="0.5"/>
+    <circle cx="450" cy="24" r="1.1" opacity="0.5"/>
+  </g>
+  <g fill="#5b9dff">
+    <rect x="28" y="200" width="6" height="6" transform="rotate(45 31 203)"/>
+    <rect x="864" y="150" width="6" height="6" transform="rotate(45 867 153)"/>
+    <rect x="600" y="230" width="5" height="5" transform="rotate(45 602 232)"/>
+  </g>
+
+  <!-- top-left eyebrow: XP -->
+  <text x="30" y="34" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" fill="#7cc6ff" letter-spacing="1">XP: INFORMATICS ENGINEERING &#183; LEVEL 02</text>
+  <!-- top-right: player tag -->
+  <text x="870" y="27" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace" font-size="13" fill="#7cc6ff" letter-spacing="1">&#9670; PLAYER: MARIA_AULIA</text>
+
+  <!-- main dialog box -->
+  <rect x="90" y="58" width="720" height="188" rx="16" fill="url(#panel)" stroke="#2f6fed" stroke-width="2.5" filter="url(#glow)"/>
+  <g fill="#5b9dff">
+    <rect x="82" y="50" width="14" height="4"/><rect x="82" y="50" width="4" height="14"/>
+    <rect x="804" y="50" width="14" height="4"/><rect x="814" y="50" width="4" height="14"/>
+    <rect x="82" y="232" width="14" height="4"/><rect x="82" y="222" width="4" height="14"/>
+    <rect x="804" y="232" width="14" height="4"/><rect x="814" y="222" width="4" height="14"/>
+  </g>
+
+  <text x="450" y="108" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="18" fill="#5b7ab8" letter-spacing="10">2026</text>
+  <text x="454" y="168" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="50" fill="#12294f" letter-spacing="5">PORTFOLIO</text>
+  <text x="450" y="164" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="50" fill="#e8eefb" letter-spacing="5">PORTFOLIO</text>
+
+  <g>
+    <rect x="380" y="196" width="140" height="38" rx="8" fill="url(#btn)"/>
+    <polygon points="404,207 404,221 415,214" fill="#061024"/>
+    <text x="460" y="220" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-weight="700" font-size="15" fill="#061024" letter-spacing="2">START</text>
+  </g>
+
+  <!-- ===== scene: character on ground ===== -->
+
+  <!-- simple pixel tree, right side -->
+  <g transform="translate(700,270)">
+    <rect x="18" y="90" width="14" height="60" fill="#12294f"/>
+    <rect x="0" y="30" width="50" height="16" fill="#1d3f78"/>
+    <rect x="8" y="14" width="34" height="16" fill="#2f6fed"/>
+    <rect x="16" y="0" width="18" height="14" fill="#5b9dff"/>
+    <rect x="-8" y="46" width="66" height="14" fill="#173357"/>
+  </g>
+
+  <!-- small pixel cat silhouette, right of character -->
+  <g transform="translate(600,404)" fill="#16223e" stroke="#2f6fed" stroke-width="1.5">
+    <rect x="0" y="8" width="32" height="16" rx="3"/>
+    <rect x="24" y="-4" width="14" height="14" rx="2"/>
+    <rect x="26" y="-8" width="3" height="5"/>
+    <rect x="33" y="-8" width="3" height="5"/>
+    <rect x="-6" y="0" width="9" height="9" rx="2"/>
+  </g>
+
+  <!-- player avatar standing on ground, portrait card frame -->
+  <g transform="translate(150,234)">
+    <rect x="-6" y="-6" width="162" height="208" rx="18" fill="#0a1226" stroke="#2f6fed" stroke-width="2.5"/>
+    <g clip-path="url(#avatarClip)">
+      <rect width="150" height="196" fill="#0c1a3d"/>
+      <image href="https://raw.githubusercontent.com/mriaulia/mriaulia/main/avatar.jpg" xlink:href="https://raw.githubusercontent.com/mriaulia/mriaulia/main/avatar.jpg" x="-5" y="-4" width="160" height="200" preserveAspectRatio="xMidYMax slice"/>
+    </g>
+    <!-- soft glow pedestal -->
+    <ellipse cx="75" cy="204" rx="60" ry="8" fill="#2f6fed" opacity="0.3"/>
+  </g>
+
+  <!-- floating sparkles near character -->
+  <g fill="#7cc6ff">
+    <rect x="310" y="280" width="6" height="6" transform="rotate(45 313 283)"/>
+    <rect x="330" y="320" width="4" height="4" transform="rotate(45 332 322)"/>
+    <circle cx="360" cy="260" r="1.6"/>
+  </g>
+
+  <!-- ground strip -->
+  <rect x="0" y="430" width="900" height="20" fill="url(#ground)"/>
+  <g fill="#1d3f78">
+    <rect x="10" y="430" width="16" height="6"/>
+    <rect x="46" y="430" width="16" height="6"/>
+    <rect x="82" y="430" width="16" height="6"/>
+    <rect x="118" y="430" width="16" height="6"/>
+    <rect x="154" y="430" width="16" height="6"/>
+    <rect x="190" y="430" width="16" height="6"/>
+    <rect x="226" y="430" width="16" height="6"/>
+    <rect x="600" y="430" width="16" height="6"/>
+    <rect x="636" y="430" width="16" height="6"/>
+    <rect x="672" y="430" width="16" height="6"/>
+    <rect x="708" y="430" width="16" height="6"/>
+    <rect x="744" y="430" width="16" height="6"/>
+    <rect x="780" y="430" width="16" height="6"/>
+    <rect x="816" y="430" width="16" height="6"/>
+    <rect x="852" y="430" width="16" height="6"/>
+  </g>
+
+  <!-- bottom nav strip -->
+  <rect x="0" y="450" width="900" height="30" fill="#0c1a3d"/>
+  <text x="30" y="470" font-family="'JetBrains Mono','Courier New',monospace" font-size="12" fill="#9db8e8" letter-spacing="1">&#9733; About Me</text>
+  <text x="450" y="470" text-anchor="middle" font-family="'JetBrains Mono','Courier New',monospace" font-size="12" fill="#9db8e8" letter-spacing="1">&#9733; Projects</text>
+  <text x="870" y="470" text-anchor="end" font-family="'JetBrains Mono','Courier New',monospace" font-size="12" fill="#9db8e8" letter-spacing="1">&#9733; Contact</text>
+</svg>
