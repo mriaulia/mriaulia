@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05070d,50:0c1a3d,100:2f6fed&height=220&section=header&text=MARIA%20AULIA&fontSize=52&fontColor=e8eefb&fontAlignY=38&desc=Informatics%20Engineering%20Student&descAlignY=58&descSize=18&descColor=7c8bae&animation=fadeIn" width="100%"/>
+<img src="https://raw.githubusercontent.com/mriaulia/mriaulia/main/hero-banner.svg" width="100%"/>
+
+<br>
 
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=3000&pause=800&color=5B9DFF&center=true&vCenter=true&width=560&lines=Building+toward+the+iOS+ecosystem+%F0%9F%8D%8E;React.js+%C2%B7+Supabase+%C2%B7+Python+%C2%B7+SQL;Currently+levelling+up+%40+UNISKA;Open+to+collaborate+on+web+%26+IoT+projects" alt="Typing SVG" />
 
@@ -11,6 +13,10 @@
 **[🎮 Lihat portofolio interaktif lengkap →](https://mriaulia.github.io/portofolio-/)**
 
 </div>
+
+<br>
+
+<img src="https://raw.githubusercontent.com/mriaulia/mriaulia/main/player-card.svg" width="100%"/>
 
 <br>
 
